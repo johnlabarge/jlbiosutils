@@ -1,0 +1,91 @@
+Tjlbiosutils
+v4
+r1
+cCheck dependencies
+cProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.pth jlbiosutils/jlbiosutils-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.o /Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F6D32B10000000000000110
+t1332556465
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a
+t2
+s0
+
+N/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.o
+t2
+s0
+
+N/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/jlbiosutils.LinkFileList
+c000000004F99B97F000000000000009B
+t1335474559
+s155
+
+N/Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.h
+c000000004F99741C000000000000027A
+t1335456796
+s634
+
+N/Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m
+c000000004F99B7FA00000000000016B9
+t1335474170
+s5817
+
+N/Developer/jlbiosutils/jlbiosutils/jlbiosutils/jlbiosutils-Prefix.pch
+c000000004F99738800000000000000A3
+t1335456648
+s163
+
+N/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc349b2fff049b541^0da5b6fff049b541^---0#1#0#--18"Check dependencies36"69F4E0EF-538B-4DAB-8690-AEA7E56A4086-
+
+CCompileC ./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.o /Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357167359.909941
+e357167359.976234
+r1
+xCompileC
+x./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.o
+x/Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m6d20e9fff049b541^ffeaf9fff049b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m0000000000000000^4261"CompileC ./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.o jlbiosutils/../DynamicProperties.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/jlbiosutils    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/narwhal/bin:/Developer/mongodb/bin:/Developer/play:/Users/john/.rvm/scripts:/Developer/node_modules/spine.app/bin:/Developer/node:/Developer/bin:/opt/subversion/bin:/Developer/groovy/bin:/Users/john/bin:/opt/local/bin:/opt/local/sbin:/Developer/Applications/eclipse:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Developer/grails/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/narwhal/bin:/Developer/mongodb/bin:/Developer/play:/Users/john/.rvm/scripts:/Developer/node_modules/spine.app/bin:/Developer/node:/Developer/bin:/opt/subversion/bin:/Developer/groovy/bin:/Users/john/bin:/opt/local/bin:/opt/local/sbin:/Developer/Applications/eclipse:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Developer/grails/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/john/.rvm/bin:/Developer/maven:/Developer/groovy/bin:/Users/john/.ec2/bin:/Developer/maven:/Developer/groovy/bin:/Users/john/.ec2/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-generated-files.hmap -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-own-target-headers.hmap -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-all-target-headers.hmap -iquote /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-project-headers.hmap -I/Developer/jlbiosutils/jlbiosutils/jlbiosutils/build/Release-iphonesimulator/include -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/DerivedSources/i386 -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/DerivedSources -F/Developer/jlbiosutils/jlbiosutils/jlbiosutils/build/Release-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.d -c /Developer/jlbiosutils/jlbiosutils/jlbiosutils/../DynamicProperties.m -o /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/DynamicProperties.o36"EA1BF299-BED8-44F3-A954-9B73C7FA1D55-
+
+CLibtool /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a normal i386
+s357167359.983109
+e357167359.990921
+r1
+xLibtool
+x/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Libtool ./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a normal i386c5e6fbfff049b541^84b9fdfff049b541^---0#0#0#--2221"Libtool ./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a normal i386    cd /Developer/jlbiosutils/jlbiosutils    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/narwhal/bin:/Developer/mongodb/bin:/Developer/play:/Users/john/.rvm/scripts:/Developer/node_modules/spine.app/bin:/Developer/node:/Developer/bin:/opt/subversion/bin:/Developer/groovy/bin:/Users/john/bin:/opt/local/bin:/opt/local/sbin:/Developer/Applications/eclipse:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Developer/grails/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/narwhal/bin:/Developer/mongodb/bin:/Developer/play:/Users/john/.rvm/scripts:/Developer/node_modules/spine.app/bin:/Developer/node:/Developer/bin:/opt/subversion/bin:/Developer/groovy/bin:/Users/john/bin:/opt/local/bin:/opt/local/sbin:/Developer/Applications/eclipse:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Developer/grails/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/john/.rvm/bin:/Developer/maven:/Developer/groovy/bin:/Users/john/.ec2/bin:/Developer/maven:/Developer/groovy/bin:/Users/john/.ec2/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Developer/jlbiosutils/jlbiosutils/jlbiosutils/build/Release-iphonesimulator -filelist /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/Objects-normal/i386/jlbiosutils.LinkFileList -ObjC -framework Foundation -o /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/Release-iphonesimulator/libjlbiosutils.a36"D9F62A9B-0C09-4B47-8DB9-C3C821B57CFC-
+
+CProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.pth jlbiosutils/jlbiosutils-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357167359.716191
+e357167359.903041
+r1
+xProcessPCH
+x/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.pth
+xjlbiosutils/jlbiosutils-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile jlbiosutils/jlbiosutils-Prefix.pchd28ab7fff049b541^2c2de7fff049b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/jlbiosutils/jlbiosutils/jlbiosutils/jlbiosutils-Prefix.pch0000000000000000^4171"ProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.pth jlbiosutils/jlbiosutils-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/jlbiosutils    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/narwhal/bin:/Developer/mongodb/bin:/Developer/play:/Users/john/.rvm/scripts:/Developer/node_modules/spine.app/bin:/Developer/node:/Developer/bin:/opt/subversion/bin:/Developer/groovy/bin:/Users/john/bin:/opt/local/bin:/opt/local/sbin:/Developer/Applications/eclipse:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Developer/grails/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/narwhal/bin:/Developer/mongodb/bin:/Developer/play:/Users/john/.rvm/scripts:/Developer/node_modules/spine.app/bin:/Developer/node:/Developer/bin:/opt/subversion/bin:/Developer/groovy/bin:/Users/john/bin:/opt/local/bin:/opt/local/sbin:/Developer/Applications/eclipse:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Developer/grails/bin:/Developer/SenchaSDKTools-2.0.0-Beta/jsbuilder:/Developer/SenchaSDKTools-2.0.0-Beta/bin:/Developer/SenchaSDKTools-2.0.0-Beta:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/john/.rvm/bin:/Developer/maven:/Developer/groovy/bin:/Users/john/.ec2/bin:/Developer/maven:/Developer/groovy/bin:/Users/john/.ec2/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-generated-files.hmap -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-own-target-headers.hmap -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-all-target-headers.hmap -iquote /Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/jlbiosutils-project-headers.hmap -I/Developer/jlbiosutils/jlbiosutils/jlbiosutils/build/Release-iphonesimulator/include -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/DerivedSources/i386 -I/Developer/jlbiosutils/jlbiosutils/./jlbiosutils/build/jlbiosutils.build/Release-iphonesimulator/jlbiosutils.build/DerivedSources -F/Developer/jlbiosutils/jlbiosutils/jlbiosutils/build/Release-iphonesimulator -c /Developer/jlbiosutils/jlbiosutils/jlbiosutils/jlbiosutils-Prefix.pch -o /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/jlbiosutils-Prefix-gkunhuthiggjoraxdgtoxepfvgwo/jlbiosutils-Prefix.pch.d36"C27263C9-FB9A-4A8E-93D3-5BA5FEE745A1-
+
