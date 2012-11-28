@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527B4F2C154DA15300BE85DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F2B154DA15300BE85DF /* UIKit.framework */; };
+		527B4F2E154DA15300BE85DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F2D154DA15300BE85DF /* Foundation.framework */; };
+		527B4F30154DA15300BE85DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F2F154DA15300BE85DF /* CoreGraphics.framework */; };
+		527B4F36154DA15300BE85DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F34154DA15300BE85DF /* InfoPlist.strings */; };
+		527B4F38154DA15300BE85DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4F37154DA15300BE85DF /* main.m */; };
+		527B4F3C154DA15300BE85DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4F3B154DA15300BE85DF /* AppDelegate.m */; };
+		527B4F41154DA15300BE85DF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F40154DA15300BE85DF /* first.png */; };
+		527B4F43154DA15300BE85DF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F42154DA15300BE85DF /* first@2x.png */; };
+		527B4F48154DA15300BE85DF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F47154DA15300BE85DF /* second.png */; };
+		527B4F4A154DA15300BE85DF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F49154DA15300BE85DF /* second@2x.png */; };
+		527B4F58154DA15400BE85DF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F57154DA15400BE85DF /* SenTestingKit.framework */; };
+		527B4F59154DA15400BE85DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F2B154DA15300BE85DF /* UIKit.framework */; };
+		527B4F5A154DA15400BE85DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F2D154DA15300BE85DF /* Foundation.framework */; };
+		527B4F62154DA15400BE85DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F60154DA15400BE85DF /* InfoPlist.strings */; };
+		527B4F65154DA15400BE85DF /* DirectMessagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4F64154DA15400BE85DF /* DirectMessagesTests.m */; };
+		527B4F7E154DA5B900BE85DF /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F71154DA5B900BE85DF /* FBDialog.bundle */; };
+		527B4F7F154DA5B900BE85DF /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B4F77154DA5B900BE85DF /* libfacebook_ios_sdk.a */; };
+		527B4F92154DE84800BE85DF /* DataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4F91154DE84800BE85DF /* DataSet.m */; };
+		527B4F94154DEB6900BE85DF /* SendMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F93154DEB6900BE85DF /* SendMessageViewController.xib */; };
+		527B4F96154DECC500BE85DF /* WriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F95154DECC500BE85DF /* WriteVC.xib */; };
+		527B4F98154DEF8C00BE85DF /* ViewMessagesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F97154DEF8B00BE85DF /* ViewMessagesController.xib */; };
+		527B4F9A154DF24600BE85DF /* ViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527B4F99154DF24600BE85DF /* ViewVC.xib */; };
+		527B4F9D154DF43600BE85DF /* SendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4F9C154DF43500BE85DF /* SendVC.m */; };
+		527B4FA0154DF45A00BE85DF /* ViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4F9F154DF45A00BE85DF /* ViewVC.m */; };
+		527B4FA3154DF66800BE85DF /* SendMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4FA2154DF66800BE85DF /* SendMessageController.m */; };
+		527B4FA6154DF70F00BE85DF /* ViewMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B4FA5154DF70E00BE85DF /* ViewMessageController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527B4F5B154DA15400BE85DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527B4F1E154DA15300BE85DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527B4F26154DA15300BE85DF;
+			remoteInfo = DirectMessages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527B4F27154DA15300BE85DF /* DirectMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527B4F2B154DA15300BE85DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		527B4F2D154DA15300BE85DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		527B4F2F154DA15300BE85DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		527B4F33154DA15300BE85DF /* DirectMessages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirectMessages-Info.plist"; sourceTree = "<group>"; };
+		527B4F35154DA15300BE85DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		527B4F37154DA15300BE85DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		527B4F39154DA15300BE85DF /* DirectMessages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DirectMessages-Prefix.pch"; sourceTree = "<group>"; };
+		527B4F3A154DA15300BE85DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		527B4F3B154DA15300BE85DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		527B4F40154DA15300BE85DF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		527B4F42154DA15300BE85DF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		527B4F47154DA15300BE85DF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		527B4F49154DA15300BE85DF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		527B4F56154DA15400BE85DF /* DirectMessagesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectMessagesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527B4F57154DA15400BE85DF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		527B4F5F154DA15400BE85DF /* DirectMessagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DirectMessagesTests-Info.plist"; sourceTree = "<group>"; };
+		527B4F61154DA15400BE85DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		527B4F63154DA15400BE85DF /* DirectMessagesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectMessagesTests.h; sourceTree = "<group>"; };
+		527B4F64154DA15400BE85DF /* DirectMessagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectMessagesTests.m; sourceTree = "<group>"; };
+		527B4F6F154DA5B900BE85DF /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		527B4F70154DA5B900BE85DF /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		527B4F71154DA5B900BE85DF /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		527B4F72154DA5B900BE85DF /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		527B4F73154DA5B900BE85DF /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		527B4F74154DA5B900BE85DF /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		527B4F75154DA5B900BE85DF /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		527B4F76154DA5B900BE85DF /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		527B4F77154DA5B900BE85DF /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		527B4F78154DA5B900BE85DF /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		527B4F79154DA5B900BE85DF /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		527B4F7A154DA5B900BE85DF /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		527B4F7B154DA5B900BE85DF /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		527B4F7C154DA5B900BE85DF /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		527B4F7D154DA5B900BE85DF /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		527B4F90154DE84800BE85DF /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		527B4F91154DE84800BE85DF /* DataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSet.m; sourceTree = "<group>"; };
+		527B4F93154DEB6900BE85DF /* SendMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendMessageViewController.xib; sourceTree = "<group>"; };
+		527B4F95154DECC500BE85DF /* WriteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WriteVC.xib; sourceTree = "<group>"; };
+		527B4F97154DEF8B00BE85DF /* ViewMessagesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewMessagesController.xib; sourceTree = "<group>"; };
+		527B4F99154DF24600BE85DF /* ViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewVC.xib; sourceTree = "<group>"; };
+		527B4F9B154DF43500BE85DF /* SendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendVC.h; sourceTree = "<group>"; };
+		527B4F9C154DF43500BE85DF /* SendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendVC.m; sourceTree = "<group>"; };
+		527B4F9E154DF45900BE85DF /* ViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewVC.h; sourceTree = "<group>"; };
+		527B4F9F154DF45A00BE85DF /* ViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewVC.m; sourceTree = "<group>"; };
+		527B4FA1154DF66700BE85DF /* SendMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageController.h; sourceTree = "<group>"; };
+		527B4FA2154DF66800BE85DF /* SendMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageController.m; sourceTree = "<group>"; };
+		527B4FA4154DF70E00BE85DF /* ViewMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMessageController.h; sourceTree = "<group>"; };
+		527B4FA5154DF70E00BE85DF /* ViewMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMessageController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527B4F24154DA15300BE85DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B4F2C154DA15300BE85DF /* UIKit.framework in Frameworks */,
+				527B4F2E154DA15300BE85DF /* Foundation.framework in Frameworks */,
+				527B4F30154DA15300BE85DF /* CoreGraphics.framework in Frameworks */,
+				527B4F7F154DA5B900BE85DF /* libfacebook_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B4F52154DA15400BE85DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B4F58154DA15400BE85DF /* SenTestingKit.framework in Frameworks */,
+				527B4F59154DA15400BE85DF /* UIKit.framework in Frameworks */,
+				527B4F5A154DA15400BE85DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527B4F1C154DA15300BE85DF = {
+			isa = PBXGroup;
+			children = (
+				527B4F31154DA15300BE85DF /* DirectMessages */,
+				527B4F5D154DA15400BE85DF /* DirectMessagesTests */,
+				527B4F2A154DA15300BE85DF /* Frameworks */,
+				527B4F28154DA15300BE85DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527B4F28154DA15300BE85DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F27154DA15300BE85DF /* DirectMessages.app */,
+				527B4F56154DA15400BE85DF /* DirectMessagesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527B4F2A154DA15300BE85DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F2B154DA15300BE85DF /* UIKit.framework */,
+				527B4F2D154DA15300BE85DF /* Foundation.framework */,
+				527B4F2F154DA15300BE85DF /* CoreGraphics.framework */,
+				527B4F57154DA15400BE85DF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527B4F31154DA15300BE85DF /* DirectMessages */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F90154DE84800BE85DF /* DataSet.h */,
+				527B4F91154DE84800BE85DF /* DataSet.m */,
+				527B4F6E154DA5B900BE85DF /* facebook-ios-sdk */,
+				527B4F3A154DA15300BE85DF /* AppDelegate.h */,
+				527B4FA1154DF66700BE85DF /* SendMessageController.h */,
+				527B4FA2154DF66800BE85DF /* SendMessageController.m */,
+				527B4F3B154DA15300BE85DF /* AppDelegate.m */,
+				527B4F93154DEB6900BE85DF /* SendMessageViewController.xib */,
+				527B4FA4154DF70E00BE85DF /* ViewMessageController.h */,
+				527B4FA5154DF70E00BE85DF /* ViewMessageController.m */,
+				527B4F97154DEF8B00BE85DF /* ViewMessagesController.xib */,
+				527B4F99154DF24600BE85DF /* ViewVC.xib */,
+				527B4F9B154DF43500BE85DF /* SendVC.h */,
+				527B4F9C154DF43500BE85DF /* SendVC.m */,
+				527B4F9E154DF45900BE85DF /* ViewVC.h */,
+				527B4F9F154DF45A00BE85DF /* ViewVC.m */,
+				527B4F95154DECC500BE85DF /* WriteVC.xib */,
+				527B4F40154DA15300BE85DF /* first.png */,
+				527B4F42154DA15300BE85DF /* first@2x.png */,
+				527B4F47154DA15300BE85DF /* second.png */,
+				527B4F49154DA15300BE85DF /* second@2x.png */,
+				527B4F32154DA15300BE85DF /* Supporting Files */,
+			);
+			path = DirectMessages;
+			sourceTree = "<group>";
+		};
+		527B4F32154DA15300BE85DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F33154DA15300BE85DF /* DirectMessages-Info.plist */,
+				527B4F34154DA15300BE85DF /* InfoPlist.strings */,
+				527B4F37154DA15300BE85DF /* main.m */,
+				527B4F39154DA15300BE85DF /* DirectMessages-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		527B4F5D154DA15400BE85DF /* DirectMessagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F63154DA15400BE85DF /* DirectMessagesTests.h */,
+				527B4F64154DA15400BE85DF /* DirectMessagesTests.m */,
+				527B4F5E154DA15400BE85DF /* Supporting Files */,
+			);
+			path = DirectMessagesTests;
+			sourceTree = "<group>";
+		};
+		527B4F5E154DA15400BE85DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F5F154DA15400BE85DF /* DirectMessagesTests-Info.plist */,
+				527B4F60154DA15400BE85DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		527B4F6E154DA5B900BE85DF /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				527B4F6F154DA5B900BE85DF /* Facebook.h */,
+				527B4F70154DA5B900BE85DF /* FBConnect.h */,
+				527B4F71154DA5B900BE85DF /* FBDialog.bundle */,
+				527B4F72154DA5B900BE85DF /* FBDialog.h */,
+				527B4F73154DA5B900BE85DF /* FBFrictionlessRequestSettings.h */,
+				527B4F74154DA5B900BE85DF /* FBLoginDialog.h */,
+				527B4F75154DA5B900BE85DF /* FBRequest.h */,
+				527B4F76154DA5B900BE85DF /* JSON.h */,
+				527B4F77154DA5B900BE85DF /* libfacebook_ios_sdk.a */,
+				527B4F78154DA5B900BE85DF /* NSObject+SBJSON.h */,
+				527B4F79154DA5B900BE85DF /* NSString+SBJSON.h */,
+				527B4F7A154DA5B900BE85DF /* SBJSON.h */,
+				527B4F7B154DA5B900BE85DF /* SBJsonBase.h */,
+				527B4F7C154DA5B900BE85DF /* SBJsonParser.h */,
+				527B4F7D154DA5B900BE85DF /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527B4F26154DA15300BE85DF /* DirectMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527B4F68154DA15400BE85DF /* Build configuration list for PBXNativeTarget "DirectMessages" */;
+			buildPhases = (
+				527B4F23154DA15300BE85DF /* Sources */,
+				527B4F24154DA15300BE85DF /* Frameworks */,
+				527B4F25154DA15300BE85DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectMessages;
+			productName = DirectMessages;
+			productReference = 527B4F27154DA15300BE85DF /* DirectMessages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527B4F55154DA15400BE85DF /* DirectMessagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527B4F6B154DA15400BE85DF /* Build configuration list for PBXNativeTarget "DirectMessagesTests" */;
+			buildPhases = (
+				527B4F51154DA15400BE85DF /* Sources */,
+				527B4F52154DA15400BE85DF /* Frameworks */,
+				527B4F53154DA15400BE85DF /* Resources */,
+				527B4F54154DA15400BE85DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527B4F5C154DA15400BE85DF /* PBXTargetDependency */,
+			);
+			name = DirectMessagesTests;
+			productName = DirectMessagesTests;
+			productReference = 527B4F56154DA15400BE85DF /* DirectMessagesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527B4F1E154DA15300BE85DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 527B4F21154DA15300BE85DF /* Build configuration list for PBXProject "DirectMessages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 527B4F1C154DA15300BE85DF;
+			productRefGroup = 527B4F28154DA15300BE85DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527B4F26154DA15300BE85DF /* DirectMessages */,
+				527B4F55154DA15400BE85DF /* DirectMessagesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527B4F25154DA15300BE85DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B4F36154DA15300BE85DF /* InfoPlist.strings in Resources */,
+				527B4F41154DA15300BE85DF /* first.png in Resources */,
+				527B4F43154DA15300BE85DF /* first@2x.png in Resources */,
+				527B4F48154DA15300BE85DF /* second.png in Resources */,
+				527B4F4A154DA15300BE85DF /* second@2x.png in Resources */,
+				527B4F7E154DA5B900BE85DF /* FBDialog.bundle in Resources */,
+				527B4F94154DEB6900BE85DF /* SendMessageViewController.xib in Resources */,
+				527B4F96154DECC500BE85DF /* WriteVC.xib in Resources */,
+				527B4F98154DEF8C00BE85DF /* ViewMessagesController.xib in Resources */,
+				527B4F9A154DF24600BE85DF /* ViewVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B4F53154DA15400BE85DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B4F62154DA15400BE85DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		527B4F54154DA15400BE85DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527B4F23154DA15300BE85DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B4F38154DA15300BE85DF /* main.m in Sources */,
+				527B4F3C154DA15300BE85DF /* AppDelegate.m in Sources */,
+				527B4F9D154DF43600BE85DF /* SendVC.m in Sources */,
+				527B4FA0154DF45A00BE85DF /* ViewVC.m in Sources */,
+				527B4FA3154DF66800BE85DF /* SendMessageController.m in Sources */,
+				527B4FA6154DF70F00BE85DF /* ViewMessageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B4F51154DA15400BE85DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B4F65154DA15400BE85DF /* DirectMessagesTests.m in Sources */,
+				527B4F92154DE84800BE85DF /* DataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527B4F5C154DA15400BE85DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527B4F26154DA15300BE85DF /* DirectMessages */;
+			targetProxy = 527B4F5B154DA15400BE85DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527B4F34154DA15300BE85DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527B4F35154DA15300BE85DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		527B4F60154DA15400BE85DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527B4F61154DA15400BE85DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527B4F66154DA15400BE85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		527B4F67154DA15400BE85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527B4F69154DA15400BE85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectMessages/DirectMessages-Prefix.pch";
+				INFOPLIST_FILE = "DirectMessages/DirectMessages-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DirectMessages/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		527B4F6A154DA15400BE85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectMessages/DirectMessages-Prefix.pch";
+				INFOPLIST_FILE = "DirectMessages/DirectMessages-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DirectMessages/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		527B4F6C154DA15400BE85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DirectMessages.app/DirectMessages";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectMessages/DirectMessages-Prefix.pch";
+				INFOPLIST_FILE = "DirectMessagesTests/DirectMessagesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		527B4F6D154DA15400BE85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DirectMessages.app/DirectMessages";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirectMessages/DirectMessages-Prefix.pch";
+				INFOPLIST_FILE = "DirectMessagesTests/DirectMessagesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527B4F21154DA15300BE85DF /* Build configuration list for PBXProject "DirectMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B4F66154DA15400BE85DF /* Debug */,
+				527B4F67154DA15400BE85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527B4F68154DA15400BE85DF /* Build configuration list for PBXNativeTarget "DirectMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B4F69154DA15400BE85DF /* Debug */,
+				527B4F6A154DA15400BE85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		527B4F6B154DA15400BE85DF /* Build configuration list for PBXNativeTarget "DirectMessagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B4F6C154DA15400BE85DF /* Debug */,
+				527B4F6D154DA15400BE85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527B4F1E154DA15300BE85DF /* Project object */;
+}

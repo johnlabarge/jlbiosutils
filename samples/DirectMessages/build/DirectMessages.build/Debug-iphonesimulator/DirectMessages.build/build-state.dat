@@ -1,0 +1,647 @@
+TDirectMessages
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/Info.plist DirectMessages/DirectMessages-Info.plist
+cProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.pth DirectMessages/DirectMessages-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages normal i386
+cGenerateDSYMFile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages
+cCopyStringsFile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/InfoPlist.strings DirectMessages/en.lproj/InfoPlist.strings
+cCpResource DirectMessages/first.png build/Debug-iphonesimulator/DirectMessages.app/first.png
+cCpResource DirectMessages/first@2x.png build/Debug-iphonesimulator/DirectMessages.app/first@2x.png
+cCpResource DirectMessages/second.png build/Debug-iphonesimulator/DirectMessages.app/second.png
+cCpResource DirectMessages/second@2x.png build/Debug-iphonesimulator/DirectMessages.app/second@2x.png
+cCpResource DirectMessages/facebook-ios-sdk/FBDialog.bundle build/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle
+cCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib
+cCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xib
+cCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib
+cCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib
+cTouch /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F6D2FF30000000000244490
+t1332555763
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F6D2FF60000000000353830
+t1332555766
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F6D30000000000000905E40
+t1332555776
+s9461312
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.h
+c000000004F9DBFB1000000000000041C
+t1335738289
+s1052
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m
+c000000004F9DBFCF0000000000000CB3
+t1335738319
+s3251
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/DataSet.h
+c000000004F95EEBF00000000000002FF
+t1335226047
+s767
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/DirectMessages-Prefix.pch
+c000000004F9D69D3000000000000014B
+t1335716307
+s331
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m
+c000000004F9D69D300000000000003F2
+t1335716307
+s1010
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.m
+c000000004F9D69D300000000000003F9
+t1335716307
+s1017
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.h
+c000000004F9DBEE700000000000000FA
+t1335738087
+s250
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m
+c000000004F9DBEE70000000000000379
+t1335738087
+s889
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.xib
+c000000004F9DB7960000000000001ACA
+t1335736214
+s6858
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib
+c000000004F9DBF3F0000000000001D90
+t1335738175
+s7568
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.h
+c000000004F9DBCB500000000000000D6
+t1335737525
+s214
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m
+c000000004F9DBCB5000000000000033D
+t1335737525
+s829
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.xib
+c000000004F9DB5440000000000000D0E
+t1335735620
+s3342
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.h
+c000000004F9DBF8E00000000000000FA
+t1335738254
+s250
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m
+c000000004F9DBF8E0000000000000379
+t1335738254
+s889
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib
+c000000004F9DBFB10000000000001D84
+t1335738289
+s7556
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.h
+c000000004F9DBCD900000000000000D6
+t1335737561
+s214
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m
+c000000004F9DBCD9000000000000033D
+t1335737561
+s829
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib
+c000000004F9DBE7B0000000000001C90
+t1335737979
+s7312
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xib
+c000000004F9DBE7B0000000000001EF6
+t1335737979
+s7926
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/FirstViewController.xib
+c000000004F9DABB90000000000001D53
+t1335733177
+s7507
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/InfoPlist.strings
+c000000004F9D69D3000000000000002D
+t1335716307
+s45
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/SecondViewController.xib
+c000000004F9D69D30000000000002498
+t1335716307
+s9368
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/FBDialog.bundle
+c000000004F9601780000000000000066
+t1335230840
+s102
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/FBDialog.h
+c000000004F96017800000000000012BD
+t1335230840
+s4797
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/FBLoginDialog.h
+c000000004F9601780000000000000571
+t1335230840
+s1393
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/FBRequest.h
+c000000004F9601780000000000001016
+t1335230840
+s4118
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/Facebook.h
+c000000004F960178000000000000132D
+t1335230840
+s4909
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/libfacebook_ios_sdk.a
+c000000004F960178000000000014327C
+t1335230840
+s1323644
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/first.png
+c000000004F62C1B900000000000000FD
+t1331872185
+s253
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/first@2x.png
+c000000004F62C1B90000000000000192
+t1331872185
+s402
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m
+c000000004F9D69D3000000000000015F
+t1335716307
+s351
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/second.png
+c000000004F62C1B90000000000000080
+t1331872185
+s128
+
+N/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/second@2x.png
+c000000004F62C1B90000000000000082
+t1331872185
+s130
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app
+t1335737407
+s544
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM
+t1335737407
+s102
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages
+t1335737407
+s22816
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle
+t1335717506
+s102
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/Info.plist
+t1335717500
+s822
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/PkgInfo
+t1335717500
+s8
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/SendMessageController.nib
+t1335736220
+s992
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/SendMessageViewController.nib
+t1335737356
+s1059
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/SendVC.nib
+t2
+s0
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/ViewMessagesController.nib
+t1335737356
+s1036
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/ViewVC.nib
+t1335737359
+s1215
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/WriteVC.nib
+t1335736220
+s1840
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/FirstViewController.nib
+t1335717505
+s1819
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/InfoPlist.strings
+t1335717503
+s42
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/SecondViewController.nib
+t1335717505
+s1822
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/first.png
+t1335717503
+s253
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/first@2x.png
+t1335717503
+s402
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/second.png
+t1335717503
+s128
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/second@2x.png
+t1335717503
+s130
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/DirectMessages.LinkFileList
+c000000004F9DBFB10000000000000387
+t1335738289
+s903
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.o
+t1335717502
+s47652
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.o
+t1335717502
+s47676
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.o
+t2
+s0
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.o
+t1335737980
+s46020
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.o
+t2
+s0
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.o
+t1335738290
+s46020
+
+N/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.o
+t1335738289
+s3212
+
+N/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.pth
+t1335717502
+s4029172
+
+NDirectMessages/DirectMessages-Info.plist
+c000000004F9D69D30000000000000492
+t1335716307
+s1170
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m
+r0
+
+CBuild AST from /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesebe45c4ff74db541^db505d4ff74db541^---0#1#0#--18"Check dependencies36"C2135BDC-E498-4CBA-8527-5AE82AED5D42-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357431119.411527
+e357431119.947593
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.maf79694ff74db541^a7eaf24ff74db541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m0000000000000000^3522"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.o DirectMessages/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/AppDelegate.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/AppDelegate.o36"BD5568B4-2DE9-4100-895D-9BFF939D9F1C-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357410302.651032
+e357410302.762484
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m95d3a6fea54db541^6284c8fea54db541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m0000000000000000^3570"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.o DirectMessages/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/FirstViewController.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/FirstViewController.o36"2EF9181D-2D53-40B0-A357-BDA3C1C8ADB6-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357410302.764434
+e357410302.888648
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.mfad2c3fea54db541^88bae3fea54db541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.m0000000000000000^3576"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.o DirectMessages/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SecondViewController.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SecondViewController.o36"C0D3B355-9FD0-4315-ACFC-F30D9F6F850E-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357431119.414932
+e357431119.857618
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m365a6a4ff74db541^54e4dc4ff74db541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m0000000000000000^3582"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.o DirectMessages/SendMessageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendMessageController.o36"8FD3277C-4D48-4545-9C89-01421941E59F-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357430779.478935
+e357430780.968684
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m6bb67afbf54db541^b002f8fcf54db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m0000000000000000^3492"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.o DirectMessages/SendVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/SendVC.o36"A527B195-9C9C-4586-8322-B743B54AF892-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357431119.947725
+e357431120.184573
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.me0bef24ff74db541^821c3050f74db541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m0000000000000000^3582"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.o DirectMessages/ViewMessageController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessageController.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewMessageController.o36"9B07101B-0622-4386-85C3-64F2BAB05F3E-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357431089.526470
+e357431090.400674
+r0
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m14ed8631f74db541^a7749432f74db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m0000000000000000^3492"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.o DirectMessages/ViewVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/ViewVC.o36"EEFD3F1B-CF6D-4905-8FA2-10F71CB57121-
+
+CCompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.o /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357431089.527269
+e357431089.901903
+r1
+xCompileC
+xbuild/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.o
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m2b168731f74db541^1213e831f74db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m0000000000000000^3480"CompileC build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.o DirectMessages/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch -MMD -MT dependencies -MF /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.d --serialize-diagnostics /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/main.m -o /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/main.o36"D7CF171A-6E1E-408D-B2E1-5791C3EFD210-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.xib
+s357429016.446976
+e357429020.458373
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.xiba2967218ef4db541^6bbb751cef4db541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.xib0000000000000000^905"CompileXIB DirectMessages/SendMessageController.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/SendMessageController.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"7522E5E3-399B-45F3-8972-9483E09A64B3-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib
+s357431120.767020
+e357431124.903936
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib:2: warning: Navigation Controller - Send Message NIB Name set to SendMessageController.nib (This view controller is not intended to have its view set in this manner) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xiba471c450f74db541^5a68e754f74db541^-302"/* com.apple.ibtool.document.warnings *//Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib:2: warning: Navigation Controller - Send Message NIB Name set to SendMessageController.nib (This view controller is not intended to have its view set in this manner) [9]1(21%IDEActivityLogMessage2@153"Navigation Controller - Send Message NIB Name set to SendMessageController.nib (This view controller is not intended to have its view set in this manner)78"Navigation Controller - Send Message NIB Name set to SendMessageController.nib357431124#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@106"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib0000000000000000^1#18446744073709551615#1#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib0000000000000000^917"CompileXIB DirectMessages/SendMessageViewController.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/SendMessageViewController.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendMessageViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"54F2EB77-D2E8-49DA-895F-88BAE66E1789-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/SendVC.xib
+r0
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib
+s357431124.905255
+e357431127.024636
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib5fd3e754f74db541^19550657f74db541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib0000000000000000^908"CompileXIB DirectMessages/ViewMessagesController.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/ViewMessagesController.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewMessagesController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"254F4A26-7DD8-49AA-B41B-DAFFA618EBFB-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib
+s357431127.025851
+e357431128.678575
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib4ab20657f74db541^9d48b058f74db541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib0000000000000000^860"CompileXIB DirectMessages/ViewVC.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/ViewVC.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/ViewVC.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B515AD64-192F-44C1-90A2-0C338CC6C7DE-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xib
+s357431120.767246
+e357431125.835813
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xibd579c450f74db541^da57d655f74db541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xib0000000000000000^863"CompileXIB DirectMessages/WriteVC.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/WriteVC.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/WriteVC.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"F56E6507-EF33-44FF-90C5-904152AA7426-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/FirstViewController.xib
+s357410303.852432
+e357410306.299534
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/FirstViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/FirstViewController.xib9450daffa54db541^d9b24c02a64db541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/FirstViewController.xib0000000000000000^926"CompileXIB DirectMessages/en.lproj/FirstViewController.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/FirstViewController.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/FirstViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"A44C4808-6F5A-446E-A6F3-365690C291B7-
+
+CCompileXIB /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/SecondViewController.xib
+s357410303.854490
+e357410306.238422
+r1
+xCompileXIB
+x/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/SecondViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compiling /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/SecondViewController.xib4ed0daffa54db541^e0a23f02a64db541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/SecondViewController.xib0000000000000000^929"CompileXIB DirectMessages/en.lproj/SecondViewController.xib    cd /Developer/jlbiosutils/samples/DirectMessages    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/SecondViewController.nib /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/SecondViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"1958D3F8-EDBB-46F7-87EE-08221337C02E-
+
+CCopyStringsFile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/InfoPlist.strings DirectMessages/en.lproj/InfoPlist.strings
+s357410303.837985
+e357410303.842305
+r1
+xCopyStringsFile
+x/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj/InfoPlist.strings
+xDirectMessages/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy DirectMessages/en.lproj/InfoPlist.strings179bd6ffa54db541^16a2d7ffa54db541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/en.lproj/InfoPlist.strings0000000000000000^617"CopyStringsFile build/Debug-iphonesimulator/DirectMessages.app/en.lproj/InfoPlist.strings DirectMessages/en.lproj/InfoPlist.strings    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/en.lproj -- DirectMessages/en.lproj/InfoPlist.strings36"A7DEC4CD-C21D-4880-8DCA-06AE9B7763C1-
+
+CCpResource DirectMessages/facebook-ios-sdk/FBDialog.bundle build/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle
+s357410306.283275
+e357410306.287646
+r1
+xCpResource
+xDirectMessages/facebook-ios-sdk/FBDialog.bundle
+xbuild/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle749b4802a64db541^ccb84902a64db541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle000000000080d041^774"CpResource DirectMessages/facebook-ios-sdk/FBDialog.bundle build/Debug-iphonesimulator/DirectMessages.app/FBDialog.bundle    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk/FBDialog.bundle /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app36"FEA1FF31-4AA9-4E30-8085-3D2473225C5B-
+
+CCpResource DirectMessages/first.png build/Debug-iphonesimulator/DirectMessages.app/first.png
+s357410303.838487
+e357410303.847500
+r1
+xCpResource
+xDirectMessages/first.png
+xbuild/Debug-iphonesimulator/DirectMessages.app/first.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/DirectMessages.app/first.png16c2d6ffa54db541^f5f5d8ffa54db541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/first.png000000000080d041^722"CpResource DirectMessages/first.png build/Debug-iphonesimulator/DirectMessages.app/first.png    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/first.png /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app36"AD8DC48D-C935-4197-9668-DBA3D24F5A30-
+
+CCpResource DirectMessages/first@2x.png build/Debug-iphonesimulator/DirectMessages.app/first@2x.png
+s357410303.843558
+e357410303.847677
+r1
+xCpResource
+xDirectMessages/first@2x.png
+xbuild/Debug-iphonesimulator/DirectMessages.app/first@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/DirectMessages.app/first@2x.pnge605d8ffa54db541^2502d9ffa54db541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/first@2x.png000000000080d041^737"CpResource "DirectMessages/first@2x.png" "build/Debug-iphonesimulator/DirectMessages.app/first@2x.png"    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/first@2x.png" /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app36"F41FA2F1-70F3-40DE-A40C-45F1FD9AC91D-
+
+CCpResource DirectMessages/second.png build/Debug-iphonesimulator/DirectMessages.app/second.png
+s357410303.848751
+e357410303.853053
+r1
+xCpResource
+xDirectMessages/second.png
+xbuild/Debug-iphonesimulator/DirectMessages.app/second.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/DirectMessages.app/second.png9468d9ffa54db541^a27fdaffa54db541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/second.png000000000080d041^725"CpResource DirectMessages/second.png build/Debug-iphonesimulator/DirectMessages.app/second.png    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/second.png /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app36"96FCC1E2-8246-4C0C-9E7C-80CFC448AE1E-
+
+CCpResource DirectMessages/second@2x.png build/Debug-iphonesimulator/DirectMessages.app/second@2x.png
+s357410303.848938
+e357410303.851214
+r1
+xCpResource
+xDirectMessages/second@2x.png
+xbuild/Debug-iphonesimulator/DirectMessages.app/second@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/DirectMessages.app/second@2x.png5663d9ffa54db541^faefd9ffa54db541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/second@2x.png000000000080d041^740"CpResource "DirectMessages/second@2x.png" "build/Debug-iphonesimulator/DirectMessages.app/second@2x.png"    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/second@2x.png" /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app36"684789F0-E881-4661-AFAB-483172B5F422-
+
+CGenerateDSYMFile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages
+s357431120.690869
+e357431120.755381
+r1
+xGenerateDSYMFile
+x/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM
+x/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generating /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM5473b150f74db541^d461c150f74db541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM/0000000000000000^697"GenerateDSYMFile build/Debug-iphonesimulator/DirectMessages.app.dSYM build/Debug-iphonesimulator/DirectMessages.app/DirectMessages    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages -o /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app.dSYM36"630326B1-7F18-4E3E-B64F-AEAA2BA14ECA-
+
+CLd /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages normal i386
+s357431120.191413
+e357431120.683749
+r1
+xLd
+x/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessagesa6263150f74db541^ec14af50f74db541^---0#0#0#--1344"Ld build/Debug-iphonesimulator/DirectMessages.app/DirectMessages normal i386    cd /Developer/jlbiosutils/samples/DirectMessages    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -L/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/facebook-ios-sdk -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator -filelist /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/Objects-normal/i386/DirectMessages.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -lfacebook_ios_sdk -o /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/DirectMessages36"74DD31AE-BEE9-4D46-82FF-38A5EA89E4E7-
+
+CProcessInfoPlistFile /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/Info.plist DirectMessages/DirectMessages-Info.plist
+s357410300.440961
+e357410300.447844
+r1
+xProcessInfoPlistFile
+x/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/Info.plist
+xDirectMessages/DirectMessages-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process DirectMessages/DirectMessages-Info.plist789971fca54db541^d0ee74fca54db541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/DirectMessages-Info.plist0000000000000000^720"ProcessInfoPlistFile build/Debug-iphonesimulator/DirectMessages.app/Info.plist DirectMessages/DirectMessages-Info.plist    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DirectMessages/DirectMessages-Info.plist -genpkginfo /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app/Info.plist36"F321348D-2FD9-44B6-BF51-42AC964B5828-
+
+CProcessPCH /Users/john/Library/Developer/Xcode/DerivedData/DirectMessages-guzrtkriujnilnestvqnjuqzkdyp/Index/PrecompiledHeaders/DirectMessages-Prefix-dfxznygolzpvepbzqgywmiavcjqg_ast/DirectMessages-Prefix.pch.pth DirectMessages/DirectMessages-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.pth DirectMessages/DirectMessages-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357410300.458445
+e357410302.348485
+r1
+xProcessPCH
+x/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.pth
+xDirectMessages/DirectMessages-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile DirectMessages/DirectMessages-Prefix.pchce8975fca54db541^744159fea54db541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Developer/jlbiosutils/samples/DirectMessages/DirectMessages/DirectMessages-Prefix.pch0000000000000000^3517"ProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.pth DirectMessages/DirectMessages-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/jlbiosutils/samples/DirectMessages    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-generated-files.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-own-target-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-all-target-headers.hmap -iquote /Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DirectMessages-project-headers.hmap -I/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/include -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources/i386 -I/Developer/jlbiosutils/samples/DirectMessages/build/DirectMessages.build/Debug-iphonesimulator/DirectMessages.build/DerivedSources -F/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.dia -c /Developer/jlbiosutils/samples/DirectMessages/DirectMessages/DirectMessages-Prefix.pch -o /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DirectMessages-Prefix-gmibjuwteyoptjbkcguhxnxvjxdw/DirectMessages-Prefix.pch.d36"6AB3011C-58C4-41B4-BCBF-BEC6975D4687-
+
+CTouch /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app
+s357431128.733334
+e357431128.749815
+r1
+xTouch
+x/Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app64cebb58f74db541^1efdbf58f74db541^---0#0#0#--416"Touch build/Debug-iphonesimulator/DirectMessages.app    cd /Developer/jlbiosutils/samples/DirectMessages    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/jlbiosutils/samples/DirectMessages/build/Debug-iphonesimulator/DirectMessages.app36"AD122BA0-938B-40A6-B3AE-AA8F0918FFA4-
+
